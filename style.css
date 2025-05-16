@@ -16,6 +16,9 @@
     
     width: 800px;
     height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cadetblue;
  }
 
  button{
@@ -24,7 +27,7 @@
     padding: 20px;
     border-radius: 8px;
     background-color: ghostwhite ;
-    ;
+    
  }
 
  button:hover{
@@ -33,4 +36,11 @@
     cursor: pointer;
     
 
+ }
+
+ .square{
+    background-color: azure;
+    width: 3%;
+    height: 30px;
+    border: 1px solid black;
  }
