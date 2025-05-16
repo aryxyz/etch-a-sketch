@@ -51,8 +51,7 @@
  .square{
     background-color: white;
     flex: auto;
-    /* background-color: rgb(91, 126, 241); */
-    /* background-color: darkslategray; */
+
 
     border: 1px solid rgb(221, 220, 220);
  }

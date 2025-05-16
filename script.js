@@ -15,6 +15,8 @@ document.querySelector("button").addEventListener('click',()=>{
 
 document.querySelector("#container").addEventListener('mouseover',(e)=>{
     e.target.style.backgroundColor = "darkslategray";
+    console.log(e.target.opacity)
+    e.target.style.opacity = Number(e.target.style.opacity) + 0.1;
 });
 
 
@@ -29,7 +31,7 @@ function makeGrid(squareCount){
         grid += "</div>";
     }
 
-    console.log(grid)
+
 
     document.querySelector("#container").innerHTML = grid;
 
