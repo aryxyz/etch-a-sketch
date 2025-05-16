@@ -18,7 +18,11 @@ document.querySelector("button").addEventListener('click',()=>{
 function makeGrid(squareCount){
     let grid = "";
     for(let i = 0 ;  i < squareCount ; i++){
-        grid+="<div class='square'></div>";
+        grid+="<div class='square-line'>";
+        for(let j = 0 ; j < squareCount ; j++){
+            grid+= "<div class='square'></div>";
+        }
+        grid += "</div>";
     }
 
     console.log(grid)

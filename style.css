@@ -16,9 +16,12 @@
     
     width: 800px;
     height: 800px;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+
  }
 
  button{
@@ -38,9 +41,15 @@
 
  }
 
+ .square-line{
+    width: 100%;
+    display: flex;
+    flex: auto ;
+ }
+
  .square{
     background-color: azure;
-    width: 3%;
-    height: 30px;
+    flex: auto;
+
     border: 1px solid black;
  }
