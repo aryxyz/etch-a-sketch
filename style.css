@@ -16,9 +16,8 @@
     
     width: 800px;
     height: 800px;
-    /* display: flex;
-    flex-wrap: wrap; */
-    background-color: cadetblue;
+ 
+  
     display: flex;
     flex-direction: column;
 
@@ -29,13 +28,15 @@
     border: none;
     padding: 20px;
     border-radius: 8px;
-    background-color: ghostwhite ;
+    background-color: darkslategray ;
+    color: white;
+    font-size: 1.2em;
     
  }
 
  button:hover{
   
-    background-color: rgb(236, 236, 253) ;
+    background-color: rgba(47, 79, 79, 0.87) ;
     cursor: pointer;
     
 
@@ -48,8 +49,10 @@
  }
 
  .square{
-    background-color: azure;
+    background-color: white;
     flex: auto;
+    /* background-color: rgb(91, 126, 241); */
+    /* background-color: darkslategray; */
 
-    border: 1px solid black;
+    border: 1px solid rgb(221, 220, 220);
  }
